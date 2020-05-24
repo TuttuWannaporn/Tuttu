@@ -1,8 +1,92 @@
-h1 {
-    color: rebeccapurple;
-    text-align: center;
-    
+html {
+    background-color: white;
 }
-body {background-color: rebeccapurple;
 
+body { 
+    font-family: tahoma, sans-serif;
+    font-size: 87%;
 }
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+   list-style: none;
+   float: left;
+   margin: 5px;
+}
+.site-nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(35, 245, 210);
+}
+
+.site-nav a:hover {
+    background-color: rgb(35, 245, 210);
+}
+/*End Site Navigation */
+
+.header {
+    color: black;
+    text-align: center;
+    padding top: 20px ;
+    padding bottom: 20px;
+}
+
+header section p span {
+    color: red;
+}
+
+.box-a {
+    background-color:rgb(35, 245, 210);
+    padding: 30px;
+    border: 3px solid gold;
+    width: 900px;
+    height: 80px;
+    text-rendering: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+}
+
+.container2 {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    text-align: center;
+}
+
+.footer1 { 
+    text-align: center;
+    font-size: 87%;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+  }
