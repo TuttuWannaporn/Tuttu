@@ -7,6 +7,68 @@ body {
     font-size: 87%;
 }
 
+/* Overlay */
+.articlebody {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0px;
+}
+.container1 {
+    position: relative;
+    bottom: -30px;
+    right: 100px;
+    z-index: 0px;
+}
+
+.imgine {
+    position: relative;
+    bottom: -30px;
+    right: 100px;
+    left: 100px;
+}
+
+.container2 {
+    position: relative;
+    bottom: -50px;
+    left: 0;
+    z-index: 0px;
+}
+
+.container3 {
+    position: relative;
+    bottom: -50px;
+    left: 100px;
+    right: 100px;
+}
+
+.video {
+    position: relative;
+    text-align: center;
+    bottom: -20px;
+    right: 85px;
+}
+
+.form {
+    position: relative;
+    position: relative;
+    text-align: center;
+    bottom: -50px;
+    right: 85px;
+}
+
+.footer1 {
+    position: relative;
+    bottom: -50px;
+    right: 85px;
+    text-align: center;
+    font-size: 87%;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
 /* Site Navigation */
 .site-nav {
     margin-top: 20px;
@@ -74,10 +136,6 @@ header section p span {
     margin-right: auto;
 }
 
-.video {
-    text-align: center;
-}
-
 .footer1 {
     text-align: center;
     font-size: 87%;
@@ -90,3 +148,4 @@ header section p span {
 .clearfix {
     clear: both;
 }
+
